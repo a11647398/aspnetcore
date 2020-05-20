@@ -16,6 +16,8 @@
     <DefaultNetCoreTargetFramework>net5.0</DefaultNetCoreTargetFramework>
   </PropertyGroup>
 
+  <Import Project="$(RepoRoot)eng\Versions.props" />
+
   <PropertyGroup>
     <!-- Working around an issue in XDT transforms -->
     <AspNetCoreHostingModel>OutOfProcess</AspNetCoreHostingModel>
