@@ -77,6 +77,9 @@ namespace Microsoft.AspNetCore.Razor.Design.IntegrationTests
                 // Always generate a bin log for debugging purposes
                 "/bl",
 
+                // Always generate a bin log for debugging purposes
+                "/v:detailed",
+
                 // Let the test app know it is running as part of a test.
                 "/p:RunningAsTest=true",
 
