@@ -19,6 +19,9 @@
   <Import Project="$(RepoRoot)eng\Versions.props" />
 
   <PropertyGroup>
+    <!-- Reset version prefix to 1.0.0 for test projects -->
+    <VersionPrefix>1.0.0</VersionPrefix>
+
     <!-- Working around an issue in XDT transforms -->
     <AspNetCoreHostingModel>OutOfProcess</AspNetCoreHostingModel>
 
