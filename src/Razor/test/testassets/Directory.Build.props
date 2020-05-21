@@ -11,7 +11,6 @@
 
     <!-- Do not resolve Reference ItemGroup since it has a different semantic meaning in Razor test apps -->
     <EnableCustomReferenceResolution>false</EnableCustomReferenceResolution>
-    <UseRazorSdk>true</UseRazorSdk>
 
     <DefaultNetCoreTargetFramework>net5.0</DefaultNetCoreTargetFramework>
   </PropertyGroup>
